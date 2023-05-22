@@ -1,6 +1,15 @@
+import {useState} from 'react'
 import './BasicNavbarStyle.css'
+
+
 function BasicNavBar() {
-  stat ={cli}
+  const {showGrid, setShowGrid} = useState(true)
+
+  const changeIcon=()=>{
+    console.log('Hello here')
+    setShowGrid(!showGrid)
+  }
+
     return (
       <>
         <nav>
@@ -41,8 +50,7 @@ function BasicNavBar() {
           </div>
 
           <div id='mobile'>
-            <i className='fas fa-bars'>dm</i>
-            <i className='fas fa-bars'>dm</i>
+            <i onClick={changeIcon} className={showGrid?'fas fa-times':'fas fa-bars'}></i>
           </div>
         </nav>
       </>

@@ -74,6 +74,7 @@ reportWebVitals();
 
 
 
+//HOW TO PUSH CODE TO GIT HUB
 
 // 1. Create git repository
 // 2. Click on the code and copy the http URL
@@ -88,3 +89,27 @@ reportWebVitals();
 //    => git remote add origin <http-url-copied-link>
 // 5. Finally push the code to the git using
 //    =>git push origin gitBranchName
+
+
+//HOW TO CREATE NEW BRANCH
+//1. To create new branch use
+  // => git branch newBranchName
+
+//HOW TO SEE/VIEW ALL AVAILABLE REMOVE BRANCH
+//1. To see or view use
+//  => git branch
+
+//HOW TO NEW THE CURRENT BRANCH I AM
+//1. To get your current branch use
+  //  => git branch --show-current
+
+//HOE TO CHECKOUT / MOVE TO A DESIRE BRANCH
+// => git checkout branchName
+
+//HOW TO UPDATE / PUSH EDIT CODE TO GIT
+//1. Add the effected file
+// ==> git add .
+//2. Commit the changed
+// ==> git commit -m "Commit statement"
+//Push your code to git repo
+// ==> git push origin branchName
